@@ -1,0 +1,1328 @@
+.men1:before {
+    content: '①';
+    font-size:20px;
+    font-family: 'Freigeist' !important;
+	font-weight:300;
+    vertical-align: top;
+	color:#ff0000;
+}
+.men2:before {
+    content: '②';
+    font-size:20px;
+    font-family: 'Freigeist' !important;
+	font-weight:300;
+    vertical-align: top;
+	color:#ff0000;
+}
+.men3:before {
+    content: '③';
+    font-size:20px;
+    font-family: 'Freigeist' !important;
+	font-weight:300;
+    vertical-align: top;
+	color:#ff0000;
+}
+.men4:before {
+    content: '④';
+    font-size:20px;
+    font-family: 'Freigeist' !important;
+	font-weight:300;
+    vertical-align: top;
+	color:#ff0000;
+}
+
+.spn4 a {
+    color: #ff0000 !important;
+}
+
+#menu-item-110950 a {
+    color: #ff0000 !important;
+}	
+#menu-item-111368 a {
+    color: #ff0000 !important;
+}	
+#menu-item-111371 a {
+    color: #ff0000 !important;
+}	
+#menu-item-111367 a {
+    color: #ff0000 !important;
+}	
+
+li#menu-item-111479 a {
+    color: #ff0000 !important;
+}
+li#menu-item-111614 a {
+    color: #ff0000 !important;
+}
+li#menu-item-118252 a {
+    color: #ff0000 !important;
+}
+li#menu-item-118546 a {
+    color: #ff0000 !important;
+}
+
+.men1 a, .men2 a, .men3 a, .men4 a {
+	color: #ff0000 !important;
+}
+li#menu-item-118546 {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+ .rowc1, .rowc2 {
+    text-align-last: center !important;
+}
+	.ver1 {
+ padding-right: 100px;
+}
+	.horizontal-text--bottom.horizontal-text--fixed.horizontal-text--shift-bottom.horizontal-text--center.shift_bottom_single {
+    left: 40% !important;
+    padding-right: 20px !important;
+}
+}
+
+@keyframes glitch {
+	1% {
+        text-shadow: 2px 0px rgba(255, 0, 0, 0.5), -2px 0px rgba(255, 0, 0, 0.5);
+		color:#fff !important;
+		filter: blur(4px);
+  }
+		10% {
+        text-shadow: 3px 0px rgba(255, 0, 0, 0.5), -3px 0px rgba(255, 0, 0, 0.5);
+			filter: blur(4px);
+			color:#fff !important;
+  }
+    20% {
+        text-shadow: 6px 0px rgba(255, 0, 0, 0.5), -4px 0px rgba(255, 0, 0, 0.5);
+			filter: blur(4px);
+			color:#fff !important;
+  }
+30% {
+        text-shadow: 7px 0px rgba(255, 0, 0, 0.5), -5px 0px rgba(255, 0, 0, 0.5);
+		filter: blur(4px);
+  }
+    40% {
+        text-shadow: 8px 0px rgba(255, 0, 0, 0.5), -6px 0px rgba(255, 0, 0, 0.5);
+			filter: blur(4px);
+  }
+	50% {
+        text-shadow: 10px 0px rgba(255, 0, 0, 0.5), -7px 0px rgba(255, 0, 0, 0.5);
+		filter: blur(4px);
+  }
+  60% {
+        text-shadow: 12px 0px rgba(255, 0, 0, 0.5), -8px 0px rgba(255, 0, 0, 0.5);
+				filter: blur(4px);
+  }
+	70% {
+        text-shadow: 10px 0px rgba(255, 0, 0, 0.5), -7px 0px rgba(255, 0, 0, 0.5);
+				filter: blur(4px);
+  }
+	80% {
+        text-shadow: 8px 0px rgba(255, 0, 0, 0.5), -5px 0px rgba(255, 0, 0, 0.5);
+				filter: blur(4px);
+  }
+	90% {
+        text-shadow: 4px 0px rgba(255, 0, 0, 0.5), -3px 0px rgba(255, 0, 0, 0.5);
+				filter: blur(4px);
+  }
+	100% {
+        text-shadow: 2px 0px rgba(255, 0, 0, 0.5), -1px 0px rgba(255, 0, 0, 0.5);
+				filter: blur(4px);
+  }
+	
+}
+
+.men1 {
+  text-decoration: none;
+  text-shadow: 0px 0px rgba(255, 0, 0, 1), 0px 0px rgba(255, 0, 0, 1);
+}
+  
+.men1:hover {
+    animation: glitch .5s infinite;	
+  }
+	.men1 a:hover {
+	color: rgba(255, 0, 0, 0.30) !important;
+}
+
+.men2:hover {
+    animation: glitch .5s infinite;
+  }
+	.men2 a:hover {
+	color: rgba(255, 0, 0, 0.30) !important;
+}
+.men3:hover {
+    animation: glitch .5s infinite;	
+  }
+	.men3 a:hover {
+	color: rgba(255, 0, 0, 0.30) !important;
+}
+.men4:hover {
+    animation: glitch .5s infinite;	
+		animation-iteration-count: 3;
+
+  }
+	.men4 a:hover {
+	color: rgba(255, 0, 0, 0.30) !important;
+}
+ul.menu-smart.sm.menu-icons.menu-smart-social i {
+    color: #fff;
+}
+
+
+
+.ls-popup-close-button:before, .ls-popup-close-button:after {
+    content: '';
+    width: 15px !important;
+    height: 1px !important;
+    background: #ff0000 !important;
+}
+
+@media only screen and (min-width: 700px) {
+ .about-txt {
+    padding-left: 20% !important;
+	 padding-right: 20% !important;
+}
+}
+
+
+ul.menu-smart.sm.menu-icons.menu-smart-social i {
+    color: #ff0000 !important;
+}
+ul.wc_payment_methods.payment_methods.methods {
+    text-align: left !important;
+}
+a.btn.btn-default.checkout.wc-forward.btn-flat {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}		
+
+@font-face {
+  font-family: "Sligoil Micro";
+  src: url("https://misticaworld.com/soon/fonts/Sligoil-Micro.otf");
+}
+
+
+
+* {
+  font-family:"monospace";
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.75rem;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+}
+
+.mistica-navbar {
+  padding: .5rem;
+}
+
+.mistica-navbar .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mistica-navbar .content .logo .home-page {
+  color: #956F48;
+  font-size: 15pt;
+}
+
+.mistica-navbar .content .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mistica-navbar .content .links .link {
+  margin: 0 0.5rem;
+}
+
+.mistica-navbar .content .links .link:first-child {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+}
+
+.mistica-navbar .content .links .link:last-child {
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
+
+.mistica-navbar .content .links .link img {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+  filter: hue-rotate(45deg);
+}
+
+.mistica-subscription {
+  padding: 2rem 0;
+  background-color: #D0D7D0;
+  height: 100vh;
+}
+
+.mistica-subscription .mistica-message {
+  position: relative;
+}
+
+.mistica-subscription .mistica-message .coming-soon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 20rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.mistica-subscription .mistica-message .coming-soon p {
+  color: #fff;
+  font-size: 44pt;
+}
+
+.mistica-subscription .mistica-message .coming-soon img {
+  width: 2.4rem;
+  -webkit-margin-start: 1rem;
+          margin-inline-start: 1rem;
+  -webkit-margin-after: 0.1rem;
+          margin-block-end: 0.1rem;
+}
+
+.mistica-envelope-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+/*Background Letter*/
+.mistica-envelope-wrapper #envelope {
+  position: relative;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-bottom-width: 1.5px;
+}
+
+#envelope2::after{
+  content: "";
+  position: relative;
+  background-color: #58756A;
+  border: 1px solid #fff;
+  border-top-color: transparent;
+  border-bottom-width: 1.5px;
+  height: 300px;
+  display: block;
+  margin-bottom: -300px;
+}
+/*mobile view form #envelope2*/
+@media (max-width:750px){
+  #envelope2::after{
+    height: 242px;
+    display: block;
+    margin-bottom: -240px;
+  }
+}
+
+.mistica-envelope-wrapper #envelope.open .form-subscription {
+  -webkit-animation: opacity 0.5s linear 1.3s forwards;
+          animation: opacity 0.5s linear 1.3s forwards;
+}
+
+.mistica-envelope-wrapper #envelope.open .flap {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-transition: z-index .6s, -webkit-transform .4s ease;
+  transition: z-index .6s, -webkit-transform .4s ease;
+  transition: transform .4s ease, z-index .6s;
+  transition: transform .4s ease, z-index .6s, -webkit-transform .4s ease;
+  z-index: 1;
+}
+/*Div inside flap top to transform down*/
+.mistica-envelope-wrapper #envelope.open .flap-down {
+  z-index: 1;
+  -webkit-transition: z-index .6s, -webkit-transform .4s ease;
+  transition: z-index .6s, -webkit-transform .4s ease;
+  transition: transform .4s ease, z-index .6s;
+  transition: transform .4s ease, z-index .6s, -webkit-transform .4s ease;
+}
+
+.mistica-envelope-wrapper #envelope.open .letter {
+  -webkit-transition: z-index .6s, -webkit-transform .4s .6s ease;
+  transition: z-index .6s, -webkit-transform .4s .6s ease;
+  transition: transform .4s .6s ease, z-index .6s;
+  transition: transform .4s .6s ease, z-index .6s, -webkit-transform .4s .6s ease;
+  z-index: 2;
+}
+
+.mistica-envelope-wrapper #envelope.close .flap {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: z-index 1s, -webkit-transform .4s .6s ease;
+  transition: z-index 1s, -webkit-transform .4s .6s ease;
+  transition: transform .4s .6s ease, z-index 1s;
+  transition: transform .4s .6s ease, z-index 1s, -webkit-transform .4s .6s ease;
+  z-index: 5;
+}
+
+.mistica-envelope-wrapper #envelope.close .letter {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: z-index 1s, -webkit-transform .4s ease;
+  transition: z-index 1s, -webkit-transform .4s ease;
+  transition: transform .4s ease, z-index 1s;
+  transition: transform .4s ease, z-index 1s, -webkit-transform .4s ease;
+  z-index: 1;
+}
+
+.mistica-envelope-wrapper .front {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: 3;
+}
+
+.mistica-envelope-wrapper .front.flap {
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  pointer-events: none;
+}
+
+.mistica-envelope-wrapper .front.flap::after {
+  content: "";
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  pointer-events: none;
+  position: relative;
+  top: -2px;
+}
+/*Envelop mobile view*/
+@media (max-width:750px){
+  .mistica-envelope-wrapper .front.flap::after {
+    top: -1px;
+  }
+}
+
+.mistica-envelope-wrapper .front.pocket.left {
+  border-left-color: #fff;
+}
+
+.mistica-envelope-wrapper .front.pocket.left::after {
+  content: "";
+  position: absolute;
+}
+
+.mistica-envelope-wrapper .front.pocket.right {
+  border-right-color: #fff;
+}
+
+.mistica-envelope-wrapper .front.pocket.right::after {
+  content: "";
+  position: absolute;
+}
+
+.mistica-envelope-wrapper .front.pocket.bottom {
+  border-top: 7rem solid transparent;
+}
+
+.mistica-envelope-wrapper .front.pocket.bottom::after {
+  content: "";
+  border-top: 8rem solid transparent;
+  position: absolute;
+  top: -7.95rem;
+}
+
+.mistica-envelope-wrapper .letter {
+  position: relative;
+  background: #fff;
+  padding: 1rem 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10.5pt;
+  color: #F20505;
+  height: 100%;
+  margin-top: -20px;
+}
+/*Letter height in mobile view*/
+@media (max-width:750px){
+  .mistica-envelope-wrapper .letter {
+    height: 150%;
+  }
+}
+
+
+.mistica-envelope-wrapper .letter .words.title {
+  font-size: 13pt;
+  margin-top: -5px;
+}
+
+.mistica-envelope-wrapper .form-subscription {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 9;
+  width: 100%;
+  top: 15.75rem;
+}
+
+@media (max-width:750px){
+  .mistica-envelope-wrapper .form-subscription {
+    top: 15.75rem !important;
+  }
+}
+
+.mistica-envelope-wrapper .form-subscription input {
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 1px solid #F20505;
+  width: 60%;
+  color: #F20505;
+  padding: 0.3rem;
+}
+
+.mistica-envelope-wrapper .form-subscription input::-webkit-input-placeholder {
+  color: gray;
+}
+
+.mistica-envelope-wrapper .form-subscription input:-ms-input-placeholder {
+  color: gray;
+}
+
+.mistica-envelope-wrapper .form-subscription input::-ms-input-placeholder {
+  color: gray;
+}
+
+.mistica-envelope-wrapper .form-subscription input::placeholder {
+  color: gray;
+}
+
+.mistica-envelope-wrapper .form-subscription input:focus-visible {
+  outline: none;
+}
+
+.mistica-envelope-wrapper .form-subscription button {
+  text-transform: uppercase;
+  background: #fff;
+  border: none;
+  color: #F20505;
+  -webkit-margin-start: -3.5rem;
+          margin-inline-start: -3.5rem;
+  padding: 0.3rem;
+  border-bottom: 1px solid #F20505;
+  cursor: pointer;
+}
+
+.mistica-envelope-wrapper .form-subscription button:focus-visible {
+  outline: none;
+}
+
+.mistica-envelope-wrapper .stamp {
+  position: absolute;
+  top: 31%;
+  z-index: 9;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mistica-envelope-wrapper .stamp .letter-lock {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.mistica-envelope-wrapper .stamp .letter-lock img {
+  width: 5rem;
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+}
+
+.mistica-envelope-wrapper .stamp p {
+  color: #D0D7D0;
+  margin-top: 2.5rem;
+}
+
+.mistica-envelope-wrapper .stamp .logo img {
+  width: 2.5rem;
+}
+
+.mistica-envelope-wrapper .mistica-world {
+  position: absolute;
+  z-index: 9;
+  right: -3.5rem;
+  bottom: -3.5rem;
+  width: 7rem;
+}
+
+.mistica-envelope-wrapper .mistica-world img {
+  -webkit-animation: spin 6s linear infinite;
+          animation: spin 6s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes opacity {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1400px) {
+  .flap::after {
+    top: -13.05rem;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 40rem;
+    height: 20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 12.95rem solid #fff;
+  }
+  .flap::after {
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 13rem solid #58756A;
+    left: -20rem;
+  }
+  .pocket {
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 20rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    top: -10rem;
+    left: -20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.right::after {
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -20rem;
+    top: -10rem;
+  }
+  .pocket.bottom {
+    border-bottom: 13rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 20rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 13rem solid #58756A !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -20rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  .mistica-subscription .mistica-message .coming-soon {
+    max-width: 18rem;
+  }
+  .mistica-subscription .mistica-message .coming-soon p {
+    font-size: 38pt;
+  }
+  .flap::after {
+    top: -13.05rem;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 35rem;
+    height: 20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 12.95rem solid #fff;
+  }
+  .flap::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 13rem solid #58756A;
+    left: -17.5rem;
+  }
+  .pocket {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    top: -10rem;
+    left: -17.5rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.right::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+    top: -10rem;
+  }
+  .pocket.bottom {
+    border-bottom: 13rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 13rem solid #58756A !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mistica-subscription .mistica-message .coming-soon p {
+    font-size: 38pt;
+  }
+  #envelope {
+    margin-top: 5rem;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 35rem;
+    height: 20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 12.95rem solid #fff;
+  }
+  .flap::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 13rem solid #58756A;
+    left: -17.5rem;
+  }
+  .pocket {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    top: -10rem;
+    left: -17.5rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.right::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+    top: -10rem;
+  }
+  .pocket.bottom {
+    border-bottom: 13rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 13rem solid #58756A !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .mistica-subscription .mistica-message .coming-soon p {
+    font-size: 28pt;
+  }
+  #envelope {
+    margin-top: 5rem;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 35rem;
+    height: 20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 12.95rem solid #fff;
+  }
+  .flap::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 13rem solid #58756A;
+    left: -17.5rem;
+  }
+  .pocket {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    top: -10rem;
+    left: -17.5rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.right::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid #58756A;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+    top: -10rem;
+  }
+  .pocket.bottom {
+    border-bottom: 13rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 17.5rem solid transparent;
+    border-right: 17.5rem solid transparent;
+    border-bottom: 13rem solid #58756A !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -17.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .mistica-subscription .mistica-message .coming-soon p {
+    font-size: 22pt;
+  }
+  .mistica-subscription .mistica-message .coming-soon img {
+    width: 1.2rem;
+  }
+  .mistica-envelope-wrapper .form-subscription input {
+    width: 45%;
+  }
+  .mistica-envelope-wrapper .form-subscription {
+    top: 11.8rem !important;
+  }
+  .flap::after {
+    top: -13.05rem;
+  }
+  .logo .home-page {
+    font-size: 12pt !important;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 30rem;
+    height: 20rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 12.95rem solid #fff;
+  }
+  .flap::after {
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-top: 13rem solid #58756A !important;
+    left: -15rem;
+  }
+  .pocket {
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 15rem solid #58756A !important;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    top: -10rem;
+    left: -15rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.right::after {
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid #58756A !important;
+    border-bottom: 10rem solid transparent;
+    border-top: 10rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -15rem;
+    top: -10rem;
+  }
+  .pocket.bottom {
+    border-bottom: 13rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-bottom: 13rem solid #58756A !important;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    left: -15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 !important;
+  }
+  .mistica-subscription .mistica-message .coming-soon {
+    max-width: unset;
+    width: 100%;
+    margin-top: 2.3em;
+  }
+  .mistica-subscription .mistica-message {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+  }
+  .mistica-subscription .mistica-message .coming-soon p {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 25pt;
+    text-align: center;
+  }
+  .mistica-subscription .mistica-message .coming-soon img {
+    -webkit-margin-start: 0.4rem;
+            margin-inline-start: 0.4rem;
+  }
+  .mistica-envelope-wrapper {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .mistica-envelope-wrapper .form-subscription input {
+    width: 52%;
+    font-size: 8pt;
+  }
+  .mistica-envelope-wrapper .form-subscription {
+    top: 11.8rem !important;
+  }
+  .mistica-envelope-wrapper .form-subscription button {
+    font-size: 8pt;
+  }
+  .mistica-envelope-wrapper .mistica-world {
+    position: absolute;
+    z-index: 9;
+    bottom: -7rem;
+    width: 5rem;
+    left: 19.5rem;
+    right: 0;
+    margin: auto;
+  }
+  .mistica-envelope-wrapper .mistica-world img {
+    width: 80%;
+    height: 75%;
+  }
+  .flap::after {
+    top: -11.8rem;
+  }
+  .mistica-envelope-wrapper .letter {
+    padding: 1rem;
+    width: 99%;
+  }
+  .mistica-envelope-wrapper .letter .words.title {
+    font-size: 11pt;
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+  .mistica-envelope-wrapper .stamp {
+    top: 60%;
+  }
+  .mistica-envelope-wrapper .stamp p {
+    font-size: .75rem;
+    margin: 1.0rem .25rem .5rem;
+  }
+  .mistica-envelope-wrapper .stamp .logo img {
+    width: 1.5rem !important;
+  }
+  .first-paragraph,
+  .second-paragraph {
+    font-size: 7pt;
+    margin-bottom: 0.5rem;
+  }
+  .second-paragraph {
+    font-size: 7pt;
+    margin-bottom: 0;
+  }
+  .mistica-envelope-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .mistica-envelope-wrapper .stamp .letter-lock img {
+    width: 3rem;
+  }
+  #envelope {
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+  }
+  .open .letter {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+  #envelope {
+    width: 22rem;
+    height: 10rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .flap {
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid transparent;
+    border-bottom: -0.5rem solid transparent;
+    border-top: 7.6rem solid #fff;
+  }
+  .flap::after {
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid transparent;
+    border-bottom: -0.5rem solid transparent;
+    border-top: 7.75rem solid #58756A !important;
+    left: -11rem;
+  }
+  .pocket {
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid transparent;
+    border-bottom: 7.5rem solid transparent;
+    border-top: 7.5rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pocket.left::after {
+    border-left: 11rem solid #58756A !important;
+    border-bottom: 7.5rem solid transparent;
+    border-top: 7.5rem solid transparent;
+    top: -7.5rem;
+    left: -11rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .pocket.right::after {
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid #58756A !important;
+    border-bottom: 7.5rem solid transparent;
+    border-top: 7.5rem solid transparent;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 0px;
+    left: -11rem;
+    top: -7.5rem;
+  }
+  .pocket.bottom {
+    border-bottom: 8rem solid #fff;
+  }
+  .pocket.bottom::after {
+    border-left: 11rem solid transparent;
+    border-right: 11rem solid transparent;
+    border-bottom: 8rem solid #58756A !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    left: -11rem;
+  }
+}
+
+div#envelope3 {
+  text-align: end;
+}
+/*# sourceMappingURL=style.css.map */
+
+/*New Css*/
+.main-container .row-container .row-parent {
+  padding: 0px;
+}
+.mistica-subscription .mistica-message .coming-soon p {
+    line-height: 1;
+}
+
+.mistica-navbar {
+    background-color: white;
+}
+
+.ti-cursor {
+    display: none !important;
+}
+
+@media (min-width: 960px){
+.limit-width {
+  max-width: 100%;
+  margin: auto;
+}
+}
+
+body:not(.rtl) .wpcf7-inline-wrapper.wpcf7-input-group > *:first-child input:not(.btn):not(.inset-input) {
+    box-shadow: inset 0 2px 1px rgb(0 0 0 / 0%) !important;
+}
+
+.wpb_animate_when_almost_visible { opacity: 1; }
+
+:root {
+    --wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+}
+
+.wpcf7-inline-wrapper.wpcf7-input-group .wpcf7-inline-field-btn {
+  margin-left: -60px;
+  z-index: 1;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit.btn.btn-flat {
+    color: #ff0000 !important;
+    padding: 6px !important;
+    border: none !important;
+    font-family: "Sligoil Micro", "Papyrus", "monospace";
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    background-color: transparent !important;
+}
+div#wpcf7-f60824-p117987-o1 {
+    border-bottom: 1px #ff0000 solid !important;
+    font-family: "Sligoil Micro", "Papyrus", "monospace";
+    width: 300px
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    background-color: #fff!important;
+    padding: 5px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+height: auto;
+}
+div.wpcf7 form .wpcf7-response-output {
+    margin: 5px 0px 0px 0px !important;
+    font-size: .8em !important;
+}
+@media (max-width: 600px) {
+div#wpcf7-f60824-p117987-o1 {
+    width: 250px !important;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit.btn.btn-flat {
+    font-size: 7pt !important;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    font-size: 7pt !important;
+}
+}
+.letter {
+    color: #956F48 !important;
+}
+
+.location {
+    display: block;
+    position: absolute;
+    top: 85%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+a.link-location {
+    color: white;
+    background-color: #956F48;
+    padding: 15px 40px;
+    border-radius: 3px;
+}
+
